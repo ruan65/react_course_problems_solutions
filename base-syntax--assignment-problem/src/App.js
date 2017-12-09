@@ -3,6 +3,7 @@ import './App.css';
 
 import UserInput from './components/UserInput'
 import UserOutput from './components/UserOutput'
+import Clock from './components/Clock'
 
 
 const people = {
@@ -50,6 +51,7 @@ class App extends Component {
             stylesheets
           </li>
         </ol>
+        <Clock />
         <br/>
         <UserInput newName={this.changeNameHandler} name={this.state.users[0].lastName}/>
         <br/>
