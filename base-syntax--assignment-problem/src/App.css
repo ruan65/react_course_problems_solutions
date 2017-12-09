@@ -1,0 +1,17 @@
+.App {
+  margin: 16px;
+}
+
+.userCardsFrame {
+  margin: 32px;
+}
+
+.userCards {
+  width: 150px;
+  color: red;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  display: inline-block;
+}
