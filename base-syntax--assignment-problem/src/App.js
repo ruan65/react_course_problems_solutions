@@ -16,7 +16,12 @@ const people = {
 
 class App extends Component {
   
-  state = Object.assign({}, people)
+  constructor(props) {
+    super(props)
+    this.state = Object.assign({}, people)
+  }
+  
+  // state = Object.assign({}, people)
   
   changeNameHandler = (event) => {
     
